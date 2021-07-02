@@ -1,0 +1,39 @@
+name: huntington_app_clone
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.1.0
+  google_fonts: ^2.1.0
+  cupertino_icons: ^1.0.3
+  url_launcher: ^6.0.8
+  firebase_core: ^1.3.0
+  firebase_auth: ^2.0.0
+  flutter_bloc: ^7.0.1
+  equatable: ^2.0.3
+  meta: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Apex New
+      fonts:
+        - asset: assets/fonts/Apex-New-Bold.otf
+  
+  assets:
+    - assets/full-text-logomdpi.png
+    - assets/full-text-logoldpi.png
+    - assets/quick-balancemdpi.png
+    - assets/success.gif
